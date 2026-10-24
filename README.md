@@ -2,7 +2,7 @@
 
 个人长期收集的好资源（工具、开源仓库、文章）。按资源类型分目录，同一类型里按主题各写一个 Markdown 文件；之后要加条目，在对应文件的表里补一行即可。
 
-开源仓库放在 [`repos/`](repos/)，网站类工具放在 [`tools/`](tools/)。之后如果收入文章，按同样方式增加 `articles/`，并补进下面的索引。
+开源仓库放在 [`repos/`](repos/)，网站类工具放在 [`tools/`](tools/)，提示词放在 [`prompts/`](prompts/)（原文照录，附中文用途和使用场景）。之后如果收入文章，按同样方式增加 `articles/`，并补进下面的索引。
 
 ## 收录说明
 
@@ -15,6 +15,8 @@
 作者把自己 star 过的 AI 视频、AI 3D、Three.js 相关仓库整理成一份清单，共 8 个。作者在评论区的回复里没有补充其他仓库。这 8 个写在 [AI 3D 与 Three.js](repos/ai-3d.md) 和 [AI 视频与剪辑](repos/ai-video.md)。earshot 写在 [AI 音频](repos/ai-audio.md)，不在原帖清单里。
 
 Stars 和更新日期来自 GitHub API，查询于 2026-10-23（北京时间），更新日期按最后一次推送换算为北京时间；帖子里的 star 数是发帖时的约数，略低于现值。各分类文件逐条写了来源和统计核对日期。
+
+提示词：1 条整理自サークルきなこ棒（@circlekinakoboo）2026-10-24 的帖子 <https://x.com/circlekinakoboo/status/2113824297777308119>，作者分享了一句压制 GPT-image2.5 生成图里细碎纹理、减少“AI 感”的提示词。
 
 ## 索引
 
@@ -32,5 +34,11 @@ Stars 和更新日期来自 GitHub API，查询于 2026-10-23（北京时间）�
 | 分类 | 文件 | 条目 |
 | --- | --- | --- |
 | 教育工具 | [tools/education.md](tools/education.md) | 1 |
+
+### 提示词
+
+| 分类 | 文件 | 条目 |
+| --- | --- | --- |
+| 图像生成 | [prompts/image-generation.md](prompts/image-generation.md) | 1 |
 
 使用限制写在对应文件的「注意事项」里：jianying-headless 只允许个人学习和非商业使用，并需要本机安装主要适配 11.5.0 的剪映；earshot 可选的 `llm` 命令会把音频上传到 Gemini。cn-math-taxonomy 为 CC BY-NC 4.0（不能商用）且是未经教师审核的 AI 初稿；timeline-bgm 没有声明许可证。
