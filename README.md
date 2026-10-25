@@ -6,7 +6,7 @@
 
 ## 收录说明
 
-共 13 个开源仓库和 1 个在线工具：8 个仓库整理自 Levi 卧云（@zmdsb259414）2026-10-22 的帖子，2 个仓库和 1 个网站整理自风清扬（@hassanyehiaa）2026-10-22 的帖子，1 个仓库整理自丹丹爱学习（@dandanetha）2026-10-24 的帖子，1 个仓库整理自宝玉（@dotey）2026-10-25 的帖子，1 个（earshot）是用户自行补充的。均已核实，各条的统计核对日期写在分类文件里。
+共 14 个开源仓库和 1 个在线工具：8 个仓库整理自 Levi 卧云（@zmdsb259414）2026-10-22 的帖子，2 个仓库和 1 个网站整理自风清扬（@hassanyehiaa）2026-10-22 的帖子，1 个仓库整理自丹丹爱学习（@dandanetha）2026-10-24 的帖子，1 个仓库整理自宝玉（@dotey）2026-10-25 的帖子，1 个仓库整理自 Elaya（@elayadesigns）2026-10-25 的帖子，1 个（earshot）是用户自行补充的。均已核实，各条的统计核对日期写在分类文件里。
 
 原帖：<https://x.com/zmdsb259414/status/2113140946699460933>
 
@@ -22,6 +22,8 @@ Stars 和更新日期来自 GitHub API，查询于 2026-10-23（北京时间）�
 
 宝玉（@dotey）2026-10-25 的帖子 <https://x.com/dotey/status/2114375050971296135>：回答网友“带实时翻译的视频是怎么做出来的”，用 BaoCut Skill 配合 BaoCut App（转录和对齐翻译）就能做这种双语字幕排版的视频，音频也可以。写在 [AI 视频与剪辑](repos/ai-video.md)。
 
+Elaya（@elayadesigns）2026-10-25 的帖子 <https://x.com/elayadesigns/status/2114049200749175174>：展示两个月内用 Higgsfield、Claude、Cursor 加自制 AI 设计师 Skill 做的一批落地页，并开源了这个 Skill。写在 [AI 设计](repos/ai-design.md)。
+
 ## 索引
 
 ### 开源仓库
@@ -33,6 +35,7 @@ Stars 和更新日期来自 GitHub API，查询于 2026-10-23（北京时间）�
 | AI 音频 | [repos/ai-audio.md](repos/ai-audio.md) | 2 |
 | 教育与知识图谱 | [repos/education.md](repos/education.md) | 1 |
 | AI Agent 工具 | [repos/ai-agent-tools.md](repos/ai-agent-tools.md) | 1 |
+| AI 设计 | [repos/ai-design.md](repos/ai-design.md) | 1 |
 
 ### 工具
 
@@ -46,4 +49,4 @@ Stars 和更新日期来自 GitHub API，查询于 2026-10-23（北京时间）�
 | --- | --- | --- |
 | 图像生成 | [prompts/image-generation.md](prompts/image-generation.md) | 1 |
 
-使用限制写在对应文件的「注意事项」里：jianying-headless 只允许个人学习和非商业使用，并需要本机安装主要适配 11.5.0 的剪映；earshot 可选的 `llm` 命令会把音频上传到 Gemini。cn-math-taxonomy 为 CC BY-NC 4.0（不能商用）且是未经教师审核的 AI 初稿；timeline-bgm 没有声明许可证。Agent-Reach 会复用浏览器里的登录（建议用小号），X 等渠道为实验状态，且只能从 GitHub 的 install.md 安装（PyPI 同名包不是本项目）。baocut 为自定义的 BaoCut Community License：用它做的内容可商用，但商业分发软件或做成对外收费服务需另行授权。
+使用限制写在对应文件的「注意事项」里：jianying-headless 只允许个人学习和非商业使用，并需要本机安装主要适配 11.5.0 的剪映；earshot 可选的 `llm` 命令会把音频上传到 Gemini。cn-math-taxonomy 为 CC BY-NC 4.0（不能商用）且是未经教师审核的 AI 初稿；timeline-bgm 没有声明许可证。Agent-Reach 会复用浏览器里的登录（建议用小号），X 等渠道为实验状态，且只能从 GitHub 的 install.md 安装（PyPI 同名包不是本项目）。baocut 为自定义的 BaoCut Community License：用它做的内容可商用，但商业分发软件或做成对外收费服务需另行授权。ai-design-skills 为 MIT，但作者承认部分内容源自 taste-skill、尚待补署名。
