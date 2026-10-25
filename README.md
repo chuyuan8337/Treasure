@@ -6,7 +6,7 @@
 
 ## 收录说明
 
-共 11 个开源仓库和 1 个在线工具：8 个仓库整理自 Levi 卧云（@zmdsb259414）2026-10-22 的帖子，2 个仓库和 1 个网站整理自风清扬（@hassanyehiaa）2026-10-22 的帖子，1 个（earshot）是用户自行补充的。均已核实，数据截至 2026-10-23。
+共 12 个开源仓库和 1 个在线工具：8 个仓库整理自 Levi 卧云（@zmdsb259414）2026-10-22 的帖子，2 个仓库和 1 个网站整理自风清扬（@hassanyehiaa）2026-10-22 的帖子，1 个仓库整理自丹丹爱学习（@dandanetha）2026-10-24 的帖子，1 个（earshot）是用户自行补充的。均已核实，数据截至 2026-10-23。
 
 原帖：<https://x.com/zmdsb259414/status/2113140946699460933>
 
@@ -18,6 +18,8 @@ Stars 和更新日期来自 GitHub API，查询于 2026-10-23（北京时间）�
 
 提示词：1 条整理自サークルきなこ棒（@circlekinakoboo）2026-10-24 的帖子 <https://x.com/circlekinakoboo/status/2113824297777308119>，作者分享了一句压制 GPT-image2.5 生成图里细碎纹理、减少“AI 感”的提示词。
 
+丹丹爱学习（@dandanetha）2026-10-24 的帖子 <https://x.com/dandanetha/status/2113852735330365607>：推荐 Agent Reach，让 Claude Code、Cursor、Codex 等 Agent 能搜 X、读小红书、看 B 站字幕等。写在 [AI Agent 工具](repos/ai-agent-tools.md)。
+
 ## 索引
 
 ### 开源仓库
@@ -28,6 +30,7 @@ Stars 和更新日期来自 GitHub API，查询于 2026-10-23（北京时间）�
 | AI 视频与剪辑 | [repos/ai-video.md](repos/ai-video.md) | 4 |
 | AI 音频 | [repos/ai-audio.md](repos/ai-audio.md) | 2 |
 | 教育与知识图谱 | [repos/education.md](repos/education.md) | 1 |
+| AI Agent 工具 | [repos/ai-agent-tools.md](repos/ai-agent-tools.md) | 1 |
 
 ### 工具
 
@@ -41,4 +44,4 @@ Stars 和更新日期来自 GitHub API，查询于 2026-10-23（北京时间）�
 | --- | --- | --- |
 | 图像生成 | [prompts/image-generation.md](prompts/image-generation.md) | 1 |
 
-使用限制写在对应文件的「注意事项」里：jianying-headless 只允许个人学习和非商业使用，并需要本机安装主要适配 11.5.0 的剪映；earshot 可选的 `llm` 命令会把音频上传到 Gemini。cn-math-taxonomy 为 CC BY-NC 4.0（不能商用）且是未经教师审核的 AI 初稿；timeline-bgm 没有声明许可证。
+使用限制写在对应文件的「注意事项」里：jianying-headless 只允许个人学习和非商业使用，并需要本机安装主要适配 11.5.0 的剪映；earshot 可选的 `llm` 命令会把音频上传到 Gemini。cn-math-taxonomy 为 CC BY-NC 4.0（不能商用）且是未经教师审核的 AI 初稿；timeline-bgm 没有声明许可证。Agent-Reach 会复用浏览器里的登录（建议用小号），X 等渠道为实验状态，且只能从 GitHub 的 install.md 安装（PyPI 同名包不是本项目）。
