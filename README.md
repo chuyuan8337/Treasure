@@ -18,6 +18,8 @@ Stars 和更新日期来自 GitHub API，查询于 2026-10-23（北京时间）�
 
 提示词：1 条整理自サークルきなこ棒（@circlekinakoboo）2026-10-24 的帖子 <https://x.com/circlekinakoboo/status/2113824297777308119>，作者分享了一句压制 GPT-image2.5 生成图里细碎纹理、减少“AI 感”的提示词。
 
+视频提示词：2 条整理自 iX（@iX00AI）的帖子。p002 来自 2026-10-25 的 <https://x.com/iX00AI/status/2114305325683937294>（用 TOPVIEW T1 生成的 2003 年 DV 家庭录像风“女高中生大战巨型怪物”短片）；p003 来自它引用的 2026-10-23 推广帖 <https://x.com/iX00AI/status/2113462863381868999>（同一份提示词对比 TOPVIEW T1 和 Seedance 2.5）。两条都是作者与 TOPVIEW 合作的推广内容，效果以作者自己的视频为准。
+
 丹丹爱学习（@dandanetha）2026-10-24 的帖子 <https://x.com/dandanetha/status/2113852735330365607>：推荐 Agent Reach，让 Claude Code、Cursor、Codex 等 Agent 能搜 X、读小红书、看 B 站字幕等。写在 [AI Agent 工具](repos/ai-agent-tools.md)。
 
 宝玉（@dotey）2026-10-25 的帖子 <https://x.com/dotey/status/2114375050971296135>：回答网友“带实时翻译的视频是怎么做出来的”，用 BaoCut Skill 配合 BaoCut App（转录和对齐翻译）就能做这种双语字幕排版的视频，音频也可以。写在 [AI 视频与剪辑](repos/ai-video.md)。
@@ -50,5 +52,6 @@ AI超元域（@AISuperDomain）2026-10-25 的帖子 <https://x.com/AISuperDomain
 | 分类 | 文件 | 条目 |
 | --- | --- | --- |
 | 图像生成 | [prompts/image-generation.md](prompts/image-generation.md) | 1 |
+| 视频生成 | [prompts/video-generation.md](prompts/video-generation.md) | 2 |
 
 使用限制写在对应文件的「注意事项」里：jianying-headless 只允许个人学习和非商业使用，并需要本机安装主要适配 11.5.0 的剪映；earshot 可选的 `llm` 命令会把音频上传到 Gemini。cn-math-taxonomy 为 CC BY-NC 4.0（不能商用）且是未经教师审核的 AI 初稿；timeline-bgm 没有声明许可证。Agent-Reach 会复用浏览器里的登录（建议用小号），X 等渠道为实验状态，且只能从 GitHub 的 install.md 安装（PyPI 同名包不是本项目）。baocut 为自定义的 BaoCut Community License：用它做的内容可商用，但商业分发软件或做成对外收费服务需另行授权。ai-design-skills 为 MIT，但作者承认部分内容源自 taste-skill、尚待补署名。CozyClay 为 AGPL-3.0（修改后对外提供网络服务须公开源码），且默认发送匿名使用统计（可关闭）。
