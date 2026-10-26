@@ -6,7 +6,7 @@
 
 ## 收录说明
 
-共 12 个开源仓库和 1 个在线工具：8 个仓库整理自 Levi 卧云（@zmdsb259414）2026-10-22 的帖子，2 个仓库和 1 个网站整理自风清扬（@hassanyehiaa）2026-10-22 的帖子，1 个仓库整理自丹丹爱学习（@dandanetha）2026-10-24 的帖子，1 个（earshot）是用户自行补充的。均已核实，数据截至 2026-10-23。
+共 15 个开源仓库和 2 个在线工具：8 个仓库整理自 Levi 卧云（@zmdsb259414）2026-10-22 的帖子，2 个仓库和 1 个网站整理自风清扬（@hassanyehiaa）2026-10-22 的帖子，1 个仓库整理自丹丹爱学习（@dandanetha）2026-10-24 的帖子，1 个仓库整理自宝玉（@dotey）2026-10-25 的帖子，1 个仓库整理自 Elaya（@elayadesigns）2026-10-25 的帖子，1 个仓库整理自 AI超元域（@AISuperDomain）2026-10-25 的帖子，1 个（earshot）是用户自行补充的。另有 1 个在线工具（IPdodo）整理自霍舟（@realhoimusk）2026-10-24 的帖子。均已核实，各条的统计核对日期写在分类文件里。
 
 原帖：<https://x.com/zmdsb259414/status/2113140946699460933>
 
@@ -18,7 +18,19 @@ Stars 和更新日期来自 GitHub API，查询于 2026-10-23（北京时间）�
 
 提示词：1 条整理自サークルきなこ棒（@circlekinakoboo）2026-10-24 的帖子 <https://x.com/circlekinakoboo/status/2113824297777308119>，作者分享了一句压制 GPT-image2.5 生成图里细碎纹理、减少“AI 感”的提示词。
 
+视频提示词：2 条整理自 iX（@iX00AI）的帖子。p002 来自 2026-10-25 的 <https://x.com/iX00AI/status/2114305325683937294>（用 TOPVIEW T1 生成的 2003 年 DV 家庭录像风“女高中生大战巨型怪物”短片）；p003 来自它引用的 2026-10-23 推广帖 <https://x.com/iX00AI/status/2113462863381868999>（同一份提示词对比 TOPVIEW T1 和 Seedance 2.5）。两条都是作者与 TOPVIEW 合作的推广内容，效果以作者自己的视频为准。
+
+视频提示词 p004–p005：一套“孟菲斯微缩世界”代码动画提示词，不用视频模型，让 AI 用 Canvas 逐帧画、无头 Chrome 导出、ffmpeg 合成，配乐也用代码生成。p004 是 Eian（@EianLu）2026-10-26 发的通用模板 <https://x.com/EianLu/status/2114695987424063730>；p005 是 Regen（@huqinyiyayuguan）2026-10-26 用这套模板写的北京东三环央视大楼街景版 <https://x.com/huqinyiyayuguan/status/2114717363736400279>。
+
 丹丹爱学习（@dandanetha）2026-10-24 的帖子 <https://x.com/dandanetha/status/2113852735330365607>：推荐 Agent Reach，让 Claude Code、Cursor、Codex 等 Agent 能搜 X、读小红书、看 B 站字幕等。写在 [AI Agent 工具](repos/ai-agent-tools.md)。
+
+宝玉（@dotey）2026-10-25 的帖子 <https://x.com/dotey/status/2114375050971296135>：回答网友“带实时翻译的视频是怎么做出来的”，用 BaoCut Skill 配合 BaoCut App（转录和对齐翻译）就能做这种双语字幕排版的视频，音频也可以。写在 [AI 视频与剪辑](repos/ai-video.md)。
+
+Elaya（@elayadesigns）2026-10-25 的帖子 <https://x.com/elayadesigns/status/2114049200749175174>：展示两个月内用 Higgsfield、Claude、Cursor 加自制 AI 设计师 Skill 做的一批落地页，并开源了这个 Skill。写在 [AI 设计](repos/ai-design.md)。
+
+AI超元域（@AISuperDomain）2026-10-25 的帖子 <https://x.com/AISuperDomain/status/2114327756532036045>：介绍开源 3D 视频预演工具 CozyClay，生成 AI 视频前先在浏览器里把场景、人物动作和镜头设计好，再把首尾帧、灰盒参考视频和提示词交给视频模型。写在 [AI 视频与剪辑](repos/ai-video.md)。
+
+霍舟（@realhoimusk）2026-10-24 的帖子 <https://x.com/realhoimusk/status/2113840831484596534>：提醒做推特一定要用住宅 IP 以免封号，推荐自己在用的 IPdodo 住宅 IP。它是闭源收费的商业网络服务、不是 AI 工具，单独写在 [网络与账号环境](tools/network.md)。帖子里的链接带作者邀请码，防封效果是作者的说法。
 
 ## 索引
 
@@ -27,21 +39,24 @@ Stars 和更新日期来自 GitHub API，查询于 2026-10-23（北京时间）�
 | 分类 | 文件 | 条目 |
 | --- | --- | --- |
 | AI 3D 与 Three.js | [repos/ai-3d.md](repos/ai-3d.md) | 4 |
-| AI 视频与剪辑 | [repos/ai-video.md](repos/ai-video.md) | 4 |
+| AI 视频与剪辑 | [repos/ai-video.md](repos/ai-video.md) | 6 |
 | AI 音频 | [repos/ai-audio.md](repos/ai-audio.md) | 2 |
 | 教育与知识图谱 | [repos/education.md](repos/education.md) | 1 |
 | AI Agent 工具 | [repos/ai-agent-tools.md](repos/ai-agent-tools.md) | 1 |
+| AI 设计 | [repos/ai-design.md](repos/ai-design.md) | 1 |
 
 ### 工具
 
 | 分类 | 文件 | 条目 |
 | --- | --- | --- |
 | 教育工具 | [tools/education.md](tools/education.md) | 1 |
+| 网络与账号环境（非 AI · 商业服务） | [tools/network.md](tools/network.md) | 1 |
 
 ### 提示词
 
 | 分类 | 文件 | 条目 |
 | --- | --- | --- |
 | 图像生成 | [prompts/image-generation.md](prompts/image-generation.md) | 1 |
+| 视频生成 | [prompts/video-generation.md](prompts/video-generation.md) | 4 |
 
-使用限制写在对应文件的「注意事项」里：jianying-headless 只允许个人学习和非商业使用，并需要本机安装主要适配 11.5.0 的剪映；earshot 可选的 `llm` 命令会把音频上传到 Gemini。cn-math-taxonomy 为 CC BY-NC 4.0（不能商用）且是未经教师审核的 AI 初稿；timeline-bgm 没有声明许可证。Agent-Reach 会复用浏览器里的登录（建议用小号），X 等渠道为实验状态，且只能从 GitHub 的 install.md 安装（PyPI 同名包不是本项目）。
+使用限制写在对应文件的「注意事项」里：jianying-headless 只允许个人学习和非商业使用，并需要本机安装主要适配 11.5.0 的剪映；earshot 可选的 `llm` 命令会把音频上传到 Gemini。cn-math-taxonomy 为 CC BY-NC 4.0（不能商用）且是未经教师审核的 AI 初稿；timeline-bgm 没有声明许可证。Agent-Reach 会复用浏览器里的登录（建议用小号），X 等渠道为实验状态，且只能从 GitHub 的 install.md 安装（PyPI 同名包不是本项目）。baocut 为自定义的 BaoCut Community License：用它做的内容可商用，但商业分发软件或做成对外收费服务需另行授权。ai-design-skills 为 MIT，但作者承认部分内容源自 taste-skill、尚待补署名。CozyClay 为 AGPL-3.0（修改后对外提供网络服务须公开源码），且默认发送匿名使用统计（可关闭）。IPdodo 是收费商业服务，帖子链接带作者邀请码，需自备海外网络才能使用，“住宅 IP 防封号”未经核实。
