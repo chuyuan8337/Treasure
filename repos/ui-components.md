@@ -1,6 +1,8 @@
 # UI 组件库
 
-以下仓库整理自摸鱼巨匠（@ChatGptAstra）2026-11-08 的帖子：<https://x.com/ChatGptAstra/status/2119349702688641177>
+以下仓库整理自摸鱼巨匠（@ChatGptAstra）2026-11-08 的帖子：<https://x.com/ChatGptAstra/status/2119349702688641177>，以及 awe0（@awe0_io）2026-11-08 的帖子：<https://x.com/awe0_io/status/2119354093458395284>。
+
+本文件同时收录 awe0（@awe0_io）2026-11-08 帖子里的 Astryx。
 
 Stars 和更新日期来自 GitHub API，查询于 2026-11-10（北京时间），更新日期按最后一次推送换算为北京时间。
 
@@ -13,6 +15,7 @@ Stars 和更新日期来自 GitHub API，查询于 2026-11-10（北京时间）�
 | [starc007/ui-components](https://github.com/starc007/ui-components)（beUI） | 动画丰富的 React / Next.js 组件库（复制源码即用，兼容 shadcn）；另有 React Native 仓库 beui-native | TypeScript | 1,946 | 2026-11-09 | MIT | Web 端要现成动效组件；移动端另看 starc007/beui-native | [@ChatGptAstra 2026-11-08](https://x.com/ChatGptAstra/status/2119349702688641177) | 2026-11-10（北京时间） |
 | [SarthakRawat-1/sketchbook-ui](https://github.com/SarthakRawat-1/sketchbook-ui) | 手绘笔记本风 React 组件库 | TypeScript | 312 | 2026-10-30 | MIT | 手绘 / 素描风格的网页界面 | [@ChatGptAstra 2026-11-08](https://x.com/ChatGptAstra/status/2119349702688641177) | 2026-11-10（北京时间） |
 | [flohoeller/affectui](https://github.com/flohoeller/affectui) | 面向 AI Agent 产品的 React 组件（Agent 树、工具调用、trace、交接与审批等），shadcn / MCP 安装；46 项免费，其余 Pro | TypeScript | 608 | 2026-11-10 | MIT（免费部分；Pro 另购） | 做 AI Agent 控制台、可观测性界面、聊天 / 审批流 | [@ChatGptAstra 2026-11-08](https://x.com/ChatGptAstra/status/2119349702688641177) | 2026-11-10（北京时间） |
+| [meta/astryx](https://github.com/meta/astryx) | Meta 开源设计系统（Beta）：150+ 无障碍 React 组件、品牌主题、深色模式、模板；CLI 给人或 AI 查文档 / 脚手架，文档站另提供 MCP | TypeScript | 20,135 | 2026-11-10 | MIT | 按成熟设计规范搭 React 界面，让 Agent 沿同一套组件文档动手 | [@awe0_io 2026-11-08](https://x.com/awe0_io/status/2119354093458395284) | 2026-11-10（北京时间） |
 
 演示 / 文档站：
 
@@ -23,6 +26,7 @@ Stars 和更新日期来自 GitHub API，查询于 2026-11-10（北京时间）�
 - beUI：<https://beui.dev/>
 - Sketchbook UI：<https://sarthakrawat-1.github.io/sketchbook-ui/>
 - affectUI：<https://www.affectui.com/>
+- Astryx：<https://astryx.atmeta.com>（Storybook / Sandbox 同站）
 
 ## 注意事项
 
@@ -32,3 +36,4 @@ Stars 和更新日期来自 GitHub API，查询于 2026-11-10（北京时间）�
 - **goopUI**：README 标明 pre-alpha，尚未上 npm；目前只有 Vue / Nuxt，React / Svelte 仍在计划中。
 - **Sketchbook UI**：2026-11-10 查看时有 119 个未关闭 issue。
 - **beUI React Native**：单独仓库 [starc007/beui-native](https://github.com/starc007/beui-native)（MIT，Stars 11，2026-11-02 更新），未单独计入总数。
+- **Astryx（meta/astryx）**：README 写 Currently in Beta。需要 React 19+（`react` / `react-dom` peer）。样式用 StyleX 编写但对使用方不可见，可用 `className` / Tailwind / CSS Modules 覆盖。图表包（`@astryxdesign/charts`、`vega`）目前只有 npm `@canary`，无稳定版。2026-11-10 查看时有 672 个未关闭 issue。CLI：`@astryxdesign/cli`（`npx @astryxdesign/cli`）；MCP 在文档站提供（Streamable HTTP，`search` / `get`）。帖子里「内部 8 年、13,000+ 应用」与官方 README 表述一致。

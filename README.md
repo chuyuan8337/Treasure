@@ -6,7 +6,7 @@
 
 ## 收录说明
 
-共 23 个开源仓库和 2 个在线工具：8 个仓库整理自 Levi 卧云（@zmdsb259414）2026-10-22 的帖子，2 个仓库和 1 个网站整理自风清扬（@hassanyehiaa）2026-10-22 的帖子，1 个仓库整理自丹丹爱学习（@dandanetha）2026-10-24 的帖子，1 个仓库整理自宝玉（@dotey）2026-10-25 的帖子，1 个仓库整理自 Elaya（@elayadesigns）2026-10-25 的帖子，1 个仓库整理自 AI超元域（@AISuperDomain）2026-10-25 的帖子，1 个（earshot）是用户自行补充的。另有 1 个在线工具（IPdodo）整理自霍舟（@realhoimusk）2026-10-24 的帖子。另有 7 个 UI 组件库整理自摸鱼巨匠（@ChatGptAstra）2026-11-08 的帖子。另有 1 个动效提示词库（motion-prompt）整理自同作者 2026-11-09 的帖子。均已核实，各条的统计核对日期写在分类文件里。
+共 24 个开源仓库和 2 个在线工具：8 个仓库整理自 Levi 卧云（@zmdsb259414）2026-10-22 的帖子，2 个仓库和 1 个网站整理自风清扬（@hassanyehiaa）2026-10-22 的帖子，1 个仓库整理自丹丹爱学习（@dandanetha）2026-10-24 的帖子，1 个仓库整理自宝玉（@dotey）2026-10-25 的帖子，1 个仓库整理自 Elaya（@elayadesigns）2026-10-25 的帖子，1 个仓库整理自 AI超元域（@AISuperDomain）2026-10-25 的帖子，1 个（earshot）是用户自行补充的。另有 1 个在线工具（IPdodo）整理自霍舟（@realhoimusk）2026-10-24 的帖子。另有 7 个 UI 组件库整理自摸鱼巨匠（@ChatGptAstra）2026-11-08 的帖子。另有 1 个动效提示词库（motion-prompt）整理自同作者 2026-11-09 的帖子。另有 1 个 UI 组件库（Astryx）整理自 awe0（@awe0_io）2026-11-08 的帖子。均已核实，各条的统计核对日期写在分类文件里。
 
 原帖：<https://x.com/zmdsb259414/status/2113140946699460933>
 
@@ -36,6 +36,8 @@ AI超元域（@AISuperDomain）2026-10-25 的帖子 <https://x.com/AISuperDomain
 
 摸鱼巨匠（@ChatGptAstra）2026-11-09 的帖子 <https://x.com/ChatGptAstra/status/2119732495747043631>：介绍开源项目 motion-prompt（大滝昇平 @showheyohtaki），192 个带专业名称的动效 / 镜头 / UI / 落地页 / 摄影效果库，可 Copy Prompt，也可 `npx skills add showheyohtaki/motion-prompt`。写在 [动效与提示词库](repos/motion-prompt.md)；代表性例句写在 [动效与创意词汇](prompts/motion-vocabulary.md)。
 
+awe0（@awe0_io）2026-11-08 的帖子 <https://x.com/awe0_io/status/2119354093458395284>：介绍 Meta 开源设计系统 Astryx（MIT、Beta，150+ 组件，CLI / 文档站 MCP 方便 AI Agent）。写在 [UI 组件库](repos/ui-components.md)。
+
 ## 索引
 
 ### 开源仓库
@@ -48,7 +50,7 @@ AI超元域（@AISuperDomain）2026-10-25 的帖子 <https://x.com/AISuperDomain
 | 教育与知识图谱 | [repos/education.md](repos/education.md) | 1 |
 | AI Agent 工具 | [repos/ai-agent-tools.md](repos/ai-agent-tools.md) | 1 |
 | AI 设计 | [repos/ai-design.md](repos/ai-design.md) | 1 |
-| UI 组件库 | [repos/ui-components.md](repos/ui-components.md) | 7 |
+| UI 组件库 | [repos/ui-components.md](repos/ui-components.md) | 8 |
 | 动效与提示词库 | [repos/motion-prompt.md](repos/motion-prompt.md) | 1 |
 
 ### 工具
@@ -66,4 +68,4 @@ AI超元域（@AISuperDomain）2026-10-25 的帖子 <https://x.com/AISuperDomain
 | 视频生成 | [prompts/video-generation.md](prompts/video-generation.md) | 4 |
 | 动效与创意词汇 | [prompts/motion-vocabulary.md](prompts/motion-vocabulary.md) | 1 |
 
-使用限制写在对应文件的「注意事项」里：jianying-headless 只允许个人学习和非商业使用，并需要本机安装主要适配 11.5.0 的剪映；earshot 可选的 `llm` 命令会把音频上传到 Gemini。cn-math-taxonomy 为 CC BY-NC 4.0（不能商用）且是未经教师审核的 AI 初稿；timeline-bgm 没有声明许可证。Agent-Reach 会复用浏览器里的登录（建议用小号），X 等渠道为实验状态，且只能从 GitHub 的 install.md 安装（PyPI 同名包不是本项目）。baocut 为自定义的 BaoCut Community License：用它做的内容可商用，但商业分发软件或做成对外收费服务需另行授权。ai-design-skills 为 MIT，但作者承认部分内容源自 taste-skill、尚待补署名。CozyClay 为 AGPL-3.0（修改后对外提供网络服务须公开源码），且默认发送匿名使用统计（可关闭）。IPdodo 是收费商业服务，帖子链接带作者邀请码，需自备海外网络才能使用，“住宅 IP 防封号”未经核实。Rare UI 为 MIT + Commons Clause + 署名（不可单独再分发组件）；ExpoKit / affectUI 另有付费 Pro；goopUI 仍为 pre-alpha（目前主要 Vue）。
+使用限制写在对应文件的「注意事项」里：jianying-headless 只允许个人学习和非商业使用，并需要本机安装主要适配 11.5.0 的剪映；earshot 可选的 `llm` 命令会把音频上传到 Gemini。cn-math-taxonomy 为 CC BY-NC 4.0（不能商用）且是未经教师审核的 AI 初稿；timeline-bgm 没有声明许可证。Agent-Reach 会复用浏览器里的登录（建议用小号），X 等渠道为实验状态，且只能从 GitHub 的 install.md 安装（PyPI 同名包不是本项目）。baocut 为自定义的 BaoCut Community License：用它做的内容可商用，但商业分发软件或做成对外收费服务需另行授权。ai-design-skills 为 MIT，但作者承认部分内容源自 taste-skill、尚待补署名。CozyClay 为 AGPL-3.0（修改后对外提供网络服务须公开源码），且默认发送匿名使用统计（可关闭）。IPdodo 是收费商业服务，帖子链接带作者邀请码，需自备海外网络才能使用，“住宅 IP 防封号”未经核实。Rare UI 为 MIT + Commons Clause + 署名（不可单独再分发组件）；ExpoKit / affectUI 另有付费 Pro；goopUI 仍为 pre-alpha（目前主要 Vue）。Astryx 为 Beta，需 React 19+；图表包仅有 @canary。
