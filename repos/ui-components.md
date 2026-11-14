@@ -1,10 +1,12 @@
 # UI 组件库
 
-以下仓库整理自摸鱼巨匠（@ChatGptAstra）2026-11-08 的帖子：<https://x.com/ChatGptAstra/status/2119349702688641177>，以及 awe0（@awe0_io）2026-11-08 的帖子：<https://x.com/awe0_io/status/2119354093458395284>。
+以下仓库整理自：
 
-本文件同时收录 awe0（@awe0_io）2026-11-08 帖子里的 Astryx。
+- 摸鱼巨匠（@ChatGptAstra）2026-11-08 的帖子：<https://x.com/ChatGptAstra/status/2119349702688641177>
+- awe0（@awe0_io）2026-11-08 的帖子：<https://x.com/awe0_io/status/2119354093458395284>
+- Willian Figueiredo（@willradoux）2026-11-14 的帖子：<https://x.com/willradoux/status/2121444548681277723>
 
-Stars 和更新日期来自 GitHub API，查询于 2026-11-10（北京时间），更新日期按最后一次推送换算为北京时间。
+Stars 和更新日期来自 GitHub API；前 8 条查询于 2026-11-10（北京时间），`useFluid/fluidui` 查询于 2026-11-14（北京时间）。更新日期按最后一次推送换算为北京时间。
 
 | 仓库 | 用途 | 语言 | Stars | 最近更新 | 许可证 | 适用场景 | 来源 | 统计核对 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -16,6 +18,7 @@ Stars 和更新日期来自 GitHub API，查询于 2026-11-10（北京时间）�
 | [SarthakRawat-1/sketchbook-ui](https://github.com/SarthakRawat-1/sketchbook-ui) | 手绘笔记本风 React 组件库 | TypeScript | 312 | 2026-10-30 | MIT | 手绘 / 素描风格的网页界面 | [@ChatGptAstra 2026-11-08](https://x.com/ChatGptAstra/status/2119349702688641177) | 2026-11-10（北京时间） |
 | [flohoeller/affectui](https://github.com/flohoeller/affectui) | 面向 AI Agent 产品的 React 组件（Agent 树、工具调用、trace、交接与审批等），shadcn / MCP 安装；46 项免费，其余 Pro | TypeScript | 608 | 2026-11-10 | MIT（免费部分；Pro 另购） | 做 AI Agent 控制台、可观测性界面、聊天 / 审批流 | [@ChatGptAstra 2026-11-08](https://x.com/ChatGptAstra/status/2119349702688641177) | 2026-11-10（北京时间） |
 | [meta/astryx](https://github.com/meta/astryx) | Meta 开源设计系统（Beta）：150+ 无障碍 React 组件、品牌主题、深色模式、模板；CLI 给人或 AI 查文档 / 脚手架，文档站另提供 MCP | TypeScript | 20,135 | 2026-11-10 | MIT | 按成熟设计规范搭 React 界面，让 Agent 沿同一套组件文档动手 | [@awe0_io 2026-11-08](https://x.com/awe0_io/status/2119354093458395284) | 2026-11-10（北京时间） |
+| [useFluid/fluidui](https://github.com/useFluid/fluidui) | 开源 React 动效组件库：轮廓沿真实弹簧流动，形状可变成项目 logo；引擎 `@usefluid/motion` 零依赖，CLI 把 22 个组件拷进项目（类似 shadcn）；另附 7 个可选 Agent Skill，并可按 4 种画幅逐帧录成 MP4 | TypeScript | 12 | 2026-11-14 | MIT | 给网站、开场页或短视频套上自己的 logo、配色和字体；也可让 Agent 按品牌改装组件或录品牌动效 | [@willradoux 2026-11-14](https://x.com/willradoux/status/2121444548681277723) | 2026-11-14（北京时间） |
 
 演示 / 文档站：
 
@@ -27,6 +30,7 @@ Stars 和更新日期来自 GitHub API，查询于 2026-11-10（北京时间）�
 - Sketchbook UI：<https://sarthakrawat-1.github.io/sketchbook-ui/>
 - affectUI：<https://www.affectui.com/>
 - Astryx：<https://astryx.atmeta.com>（Storybook / Sandbox 同站）
+- Fluid：<https://fluidui.willradoux.com>
 
 ## 注意事项
 
@@ -37,3 +41,4 @@ Stars 和更新日期来自 GitHub API，查询于 2026-11-10（北京时间）�
 - **Sketchbook UI**：2026-11-10 查看时有 119 个未关闭 issue。
 - **beUI React Native**：单独仓库 [starc007/beui-native](https://github.com/starc007/beui-native)（MIT，Stars 11，2026-11-02 更新），未单独计入总数。
 - **Astryx（meta/astryx）**：README 写 Currently in Beta。需要 React 19+（`react` / `react-dom` peer）。样式用 StyleX 编写但对使用方不可见，可用 `className` / Tailwind / CSS Modules 覆盖。图表包（`@astryxdesign/charts`、`vega`）目前只有 npm `@canary`，无稳定版。2026-11-10 查看时有 672 个未关闭 issue。CLI：`@astryxdesign/cli`（`npx @astryxdesign/cli`）；MCP 在文档站提供（Streamable HTTP，`search` / `get`）。帖子里「内部 8 年、13,000+ 应用」与官方 README 表述一致。
+- **Fluid（useFluid/fluidui）**：刚发布（仓库创建于 2026-11-10，帖子发布于 2026-11-14），2026-11-14 查看时 Stars 为 12、0 个未关闭 issue、3 个 fork。MIT。npm 最新版 `@usefluid/motion` / `@usefluid/cli` 均为 **0.1.2**（发布于 2026-11-14T13:44:47.940Z = 2026-11-14 21:44 北京时间）；仓库 CHANGELOG 目前写到 0.1.1，可能滞后于 npm。引擎 runtime 无依赖，React 是可选 peer（`>=18`）。组件由 CLI 拷进项目，不会自动更新（作者说 diff 命令还在做）。7 个 Skill 可选，不打进 bundle。`record` 需要 Chrome 或 Edge、`playwright-core` 和 ffmpeg，按 60 fps 逐帧截图再合成（作者说思路类似 Remotion）；Fluid 本身不是视频渲染器。开发本仓库 monorepo 的 `package.json` 写了 `engines.node >= 22`，这是开发环境要求，已发布的 motion 包没有单独声明 engines。文档站英 / 葡双语；Agent 可用 https://fluidui.willradoux.com/llms.txt 。
