@@ -6,7 +6,7 @@
 
 ## 收录说明
 
-共 27 个开源仓库和 2 个在线工具：8 个仓库整理自 Levi 卧云（@zmdsb259414）2026-10-22 的帖子，2 个仓库和 1 个网站整理自风清扬（@hassanyehiaa）2026-10-22 的帖子，1 个仓库整理自丹丹爱学习（@dandanetha）2026-10-24 的帖子，1 个仓库整理自宝玉（@dotey）2026-10-25 的帖子，1 个仓库整理自 Elaya（@elayadesigns）2026-10-25 的帖子，1 个仓库整理自 AI超元域（@AISuperDomain）2026-10-25 的帖子，1 个（earshot）是用户自行补充的。另有 1 个在线工具（IPdodo）整理自霍舟（@realhoimusk）2026-10-24 的帖子。另有 7 个 UI 组件库整理自摸鱼巨匠（@ChatGptAstra）2026-11-08 的帖子。另有 1 个动效提示词库（motion-prompt）整理自同作者 2026-11-09 的帖子。另有 1 个 UI 组件库（Astryx）整理自 awe0（@awe0_io）2026-11-08 的帖子。另有 1 个设计 Skill（unslop）整理自 별똥별（@stellargent_lab）2026-11-10 的帖子。另有 1 个游戏精灵 Skill（agent-sprite-forge）是用户自行补充的。另有 1 个 UI 组件库（Fluid / useFluid/fluidui）整理自 Willian Figueiredo（@willradoux）2026-11-14 的帖子。均已核实，各条的统计核对日期写在分类文件里。
+共 28 个开源仓库和 2 个在线工具：8 个仓库整理自 Levi 卧云（@zmdsb259414）2026-10-22 的帖子，2 个仓库和 1 个网站整理自风清扬（@hassanyehiaa）2026-10-22 的帖子，1 个仓库整理自丹丹爱学习（@dandanetha）2026-10-24 的帖子，1 个仓库整理自宝玉（@dotey）2026-10-25 的帖子，1 个仓库整理自 Elaya（@elayadesigns）2026-10-25 的帖子，1 个仓库整理自 AI超元域（@AISuperDomain）2026-10-25 的帖子，1 个（earshot）是用户自行补充的。另有 1 个在线工具（IPdodo）整理自霍舟（@realhoimusk）2026-10-24 的帖子。另有 7 个 UI 组件库整理自摸鱼巨匠（@ChatGptAstra）2026-11-08 的帖子。另有 1 个动效提示词库（motion-prompt）整理自同作者 2026-11-09 的帖子。另有 1 个 UI 组件库（Astryx）整理自 awe0（@awe0_io）2026-11-08 的帖子。另有 1 个设计 Skill（unslop）整理自 별똥별（@stellargent_lab）2026-11-10 的帖子。另有 1 个游戏精灵 Skill（agent-sprite-forge）是用户自行补充的。另有 1 个 UI 组件库（Fluid / useFluid/fluidui）整理自 Willian Figueiredo（@willradoux）2026-11-14 的帖子。另有 1 个交互线稿插画库（Hairline / lucasmarkes/hairline）整理自 Viking（@vikingmute）2026-11-14 的帖子。均已核实，各条的统计核对日期写在分类文件里。
 
 原帖：<https://x.com/zmdsb259414/status/2113140946699460933>
 
@@ -44,6 +44,8 @@ awe0（@awe0_io）2026-11-08 的帖子 <https://x.com/awe0_io/status/21193540934
 
 Willian Figueiredo（@willradoux）2026-11-14 的帖子 <https://x.com/willradoux/status/2121444548681277723>：开源发布 Fluid，一套带品牌感的 React 动效组件库（引擎、可拷贝组件、可选 Agent Skill，也可逐帧录视频）。写在 [UI 组件库](repos/ui-components.md)。官网 <https://fluidui.willradoux.com>，仓库 <https://github.com/useFluid/fluidui>。
 
+Viking（@vikingmute）2026-11-14 的帖子 <https://x.com/vikingmute/status/2121607129547043219>：推荐 Hairline（作者 Lucas Marques），33 个会响应指针的等距线稿 SVG 插画，可调 intensity。写在 [交互线稿插画](repos/line-figures.md)。官网 <https://hairline.lucasmarkes.com>，仓库 <https://github.com/lucasmarkes/hairline>。发帖人不是项目作者。
+
 ## 索引
 
 ### 开源仓库
@@ -59,6 +61,7 @@ Willian Figueiredo（@willradoux）2026-11-14 的帖子 <https://x.com/willradou
 | UI 组件库 | [repos/ui-components.md](repos/ui-components.md) | 9 |
 | 动效与提示词库 | [repos/motion-prompt.md](repos/motion-prompt.md) | 1 |
 | AI 游戏精灵与像素美术 | [repos/ai-game-sprites.md](repos/ai-game-sprites.md) | 1 |
+| 交互线稿插画 | [repos/line-figures.md](repos/line-figures.md) | 1 |
 
 ### 工具
 
@@ -75,4 +78,4 @@ Willian Figueiredo（@willradoux）2026-11-14 的帖子 <https://x.com/willradou
 | 视频生成 | [prompts/video-generation.md](prompts/video-generation.md) | 4 |
 | 动效与创意词汇 | [prompts/motion-vocabulary.md](prompts/motion-vocabulary.md) | 1 |
 
-使用限制写在对应文件的「注意事项」里：jianying-headless 只允许个人学习和非商业使用，并需要本机安装主要适配 11.5.0 的剪映；earshot 可选的 `llm` 命令会把音频上传到 Gemini。cn-math-taxonomy 为 CC BY-NC 4.0（不能商用）且是未经教师审核的 AI 初稿；timeline-bgm 没有声明许可证。Agent-Reach 会复用浏览器里的登录（建议用小号），X 等渠道为实验状态，且只能从 GitHub 的 install.md 安装（PyPI 同名包不是本项目）。baocut 为自定义的 BaoCut Community License：用它做的内容可商用，但商业分发软件或做成对外收费服务需另行授权。ai-design-skills 为 MIT，但作者承认部分内容源自 taste-skill、尚待补署名。CozyClay 为 AGPL-3.0（修改后对外提供网络服务须公开源码），且默认发送匿名使用统计（可关闭）。IPdodo 是收费商业服务，帖子链接带作者邀请码，需自备海外网络才能使用，“住宅 IP 防封号”未经核实。Rare UI 为 MIT + Commons Clause + 署名（不可单独再分发组件）；ExpoKit / affectUI 另有付费 Pro；goopUI 仍为 pre-alpha（目前主要 Vue）。Astryx 为 Beta，需 React 19+；图表包仅有 @canary。unslop 为 CC BY 4.0（须署名）；配图与故事视频依赖可选的付费图像服务 / Playwright+ffmpeg。agent-sprite-forge 为 MIT，但出图 / 出视频依赖付费 API 或 Codex / Grok 订阅额度；Godot / Aseprite / LDtk 等编辑器导入尚未在编辑器里验证。Fluid（useFluid/fluidui）为 MIT，刚发布（npm 0.1.2）；组件拷进项目后不会自动更新；录视频需要 Chrome/Edge、playwright-core 和 ffmpeg。
+使用限制写在对应文件的「注意事项」里：jianying-headless 只允许个人学习和非商业使用，并需要本机安装主要适配 11.5.0 的剪映；earshot 可选的 `llm` 命令会把音频上传到 Gemini。cn-math-taxonomy 为 CC BY-NC 4.0（不能商用）且是未经教师审核的 AI 初稿；timeline-bgm 没有声明许可证。Agent-Reach 会复用浏览器里的登录（建议用小号），X 等渠道为实验状态，且只能从 GitHub 的 install.md 安装（PyPI 同名包不是本项目）。baocut 为自定义的 BaoCut Community License：用它做的内容可商用，但商业分发软件或做成对外收费服务需另行授权。ai-design-skills 为 MIT，但作者承认部分内容源自 taste-skill、尚待补署名。CozyClay 为 AGPL-3.0（修改后对外提供网络服务须公开源码），且默认发送匿名使用统计（可关闭）。IPdodo 是收费商业服务，帖子链接带作者邀请码，需自备海外网络才能使用，“住宅 IP 防封号”未经核实。Rare UI 为 MIT + Commons Clause + 署名（不可单独再分发组件）；ExpoKit / affectUI 另有付费 Pro；goopUI 仍为 pre-alpha（目前主要 Vue）。Astryx 为 Beta，需 React 19+；图表包仅有 @canary。unslop 为 CC BY 4.0（须署名）；配图与故事视频依赖可选的付费图像服务 / Playwright+ffmpeg。agent-sprite-forge 为 MIT，但出图 / 出视频依赖付费 API 或 Codex / Grok 订阅额度；Godot / Aseprite / LDtk 等编辑器导入尚未在编辑器里验证。Fluid（useFluid/fluidui）为 MIT，刚发布（npm 0.1.2）；组件拷进项目后不会自动更新；录视频需要 Chrome/Edge、playwright-core 和 ffmpeg。Hairline 为 MIT；随包装的是 33 个 figure，图鉴里的 Vercel / Mastra / Notion 致敬稿不在包装内且标志归其所有者；与 Linear 没有隶属关系（仅作感觉参考）。
