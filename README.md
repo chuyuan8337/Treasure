@@ -22,6 +22,8 @@ Stars 和更新日期来自 GitHub API，查询于 2026-10-23（北京时间）�
 
 视频提示词 p004–p005：一套“孟菲斯微缩世界”代码动画提示词，不用视频模型，让 AI 用 Canvas 逐帧画、无头 Chrome 导出、ffmpeg 合成，配乐也用代码生成。p004 是 Eian（@EianLu）2026-10-26 发的通用模板 <https://x.com/EianLu/status/2114695987424063730>；p005 是 Regen（@huqinyiyayuguan）2026-10-26 用这套模板写的北京东三环央视大楼街景版 <https://x.com/huqinyiyayuguan/status/2114717363736400279>。
 
+视频提示词 p007：Lemomo（@lemomo_ai）2026-11-17 的帖子 <https://x.com/lemomo_ai/status/2122547781592117459>，用同一组雨夜素材示范 7 种后期滤镜（黑柔、变形宽银幕拉丝、留银、星光镜、烟草渐变镜、光晕 + 16 毫米、红滤镜黑白），并说明滤镜是情绪放大器，只要向 agent 讲清情绪和搭配的滤镜即可。作者在回复里确认这是同一段素材额外加的后期（不是生成时指定），后期 Agent 就可以加，还可以调色，尤其是 Blender；也提到 Codex 能做这类剪辑。这不是视频模型提示词，也不是同一作者已收录的 lemo-opuscar 风格库里的条目。帖子附 85 秒视频，收录时未观看。
+
 丹丹爱学习（@dandanetha）2026-10-24 的帖子 <https://x.com/dandanetha/status/2113852735330365607>：推荐 Agent Reach，让 Claude Code、Cursor、Codex 等 Agent 能搜 X、读小红书、看 B 站字幕等。写在 [AI Agent 工具](repos/ai-agent-tools.md)。
 
 宝玉（@dotey）2026-10-25 的帖子 <https://x.com/dotey/status/2114375050971296135>：回答网友“带实时翻译的视频是怎么做出来的”，用 BaoCut Skill 配合 BaoCut App（转录和对齐翻译）就能做这种双语字幕排版的视频，音频也可以。写在 [AI 视频与剪辑](repos/ai-video.md)。
@@ -75,7 +77,7 @@ Viking（@vikingmute）2026-11-14 的帖子 <https://x.com/vikingmute/status/212
 | 分类 | 文件 | 条目 |
 | --- | --- | --- |
 | 图像生成 | [prompts/image-generation.md](prompts/image-generation.md) | 1 |
-| 视频生成 | [prompts/video-generation.md](prompts/video-generation.md) | 4 |
+| 视频生成 | [prompts/video-generation.md](prompts/video-generation.md) | 5 |
 | 动效与创意词汇 | [prompts/motion-vocabulary.md](prompts/motion-vocabulary.md) | 1 |
 
 使用限制写在对应文件的「注意事项」里：jianying-headless 只允许个人学习和非商业使用，并需要本机安装主要适配 11.5.0 的剪映；earshot 可选的 `llm` 命令会把音频上传到 Gemini。cn-math-taxonomy 为 CC BY-NC 4.0（不能商用）且是未经教师审核的 AI 初稿；timeline-bgm 没有声明许可证。Agent-Reach 会复用浏览器里的登录（建议用小号），X 等渠道为实验状态，且只能从 GitHub 的 install.md 安装（PyPI 同名包不是本项目）。baocut 为自定义的 BaoCut Community License：用它做的内容可商用，但商业分发软件或做成对外收费服务需另行授权。ai-design-skills 为 MIT，但作者承认部分内容源自 taste-skill、尚待补署名。CozyClay 为 AGPL-3.0（修改后对外提供网络服务须公开源码），且默认发送匿名使用统计（可关闭）。IPdodo 是收费商业服务，帖子链接带作者邀请码，需自备海外网络才能使用，“住宅 IP 防封号”未经核实。Rare UI 为 MIT + Commons Clause + 署名（不可单独再分发组件）；ExpoKit / affectUI 另有付费 Pro；goopUI 仍为 pre-alpha（目前主要 Vue）。Astryx 为 Beta，需 React 19+；图表包仅有 @canary。unslop 为 CC BY 4.0（须署名）；配图与故事视频依赖可选的付费图像服务 / Playwright+ffmpeg。agent-sprite-forge 为 MIT，但出图 / 出视频依赖付费 API 或 Codex / Grok 订阅额度；Godot / Aseprite / LDtk 等编辑器导入尚未在编辑器里验证。Fluid（useFluid/fluidui）为 MIT，刚发布（npm 0.1.2）；组件拷进项目后不会自动更新；录视频需要 Chrome/Edge、playwright-core 和 ffmpeg。Hairline 为 MIT；随包装的是 33 个 figure，图鉴里的 Vercel / Mastra / Notion 致敬稿不在包装内且标志归其所有者；与 Linear 没有隶属关系（仅作感觉参考）。
